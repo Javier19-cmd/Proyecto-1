@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javier19-cmd/Proyecto-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javier19-cmd/Proyecto-1/issues"
+  },
+  "homepage": "https://github.com/Javier19-cmd/Proyecto-1#readme",
+  "dependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-config": "^7.5.0"
+  }
+}
