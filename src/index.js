@@ -2,18 +2,29 @@
  * Instalaciones realizadas:
  * 
  * 1. Webpack: npm install webpack webpack-cli.
- * 
+ * 2. React: npm install react react-dom.
+ * 3. Babel: npm install babel-loader @babel/core @babel/preset-react.
+ * 4. Webpack-dev-server: npm install webpack-dev-server
  * 
 */
 
-import Header from './components/Header.js'
-import { sub, sum } from './utils.js'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import * as ReactDOMClient from 'react-dom/client'
+import Header from './components/Header.jsx'
 
-console.log('Hola des de el index.')
+const App = () => {
+    return (
+        <>
+          <Header title='Puta' />
+        </>
+    )
+}
 
-console.log('sum 2 + 2', sum(2,2))
+const root = ReactDOMClient.createRoot(
+    document.getElementById('root')
+)
 
-console.log('sub 2 - 2', sub(2,2))
-
-const root = document.getElementById('root')
-Header(root, 'Hello world')
+root.render(
+    <App />
+)
