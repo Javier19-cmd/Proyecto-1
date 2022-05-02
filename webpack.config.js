@@ -1,31 +1,35 @@
-import path from 'path'
-
-export default {
+//Configuración del webpack
+export default{
     mode: 'development',
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js'
+      filename: 'bundle.js',
     },
+  
+    //Creando configuración para el servidor.
     devServer: {
-        static: {
+      static: {
         directory: 'dist',
-        },
-        compress: true,
-        port: 4000,
+      },
+      compress: true,
+      port: 9000
     },
+  
+    //Configurando Babel, css y aceptando imágenes.
     module: {
-        rules: [{
+      rules: [{
         test: /\.jsx?$/,
-        use: ['babel-loader']
-        }, 
-        {
-            test: /\.css$/,
-            use: ['style-loader', 'css-loader'],
-         },
-          {
-            type: 'asset',
-            test: /\.(png|svg|jpg|jpeg|gif)$/i
-          }
-    ]
-    }        
-}
+        use: ['babel-loader'],
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+     },
+      {
+        type: 'asset',
+        test: /\.(png|svg|jpg|jpeg|gif)$/i
+      }
+      ]
+    }
+  }
+  

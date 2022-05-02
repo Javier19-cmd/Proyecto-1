@@ -2,11 +2,12 @@
 //  Carnet 20159
 import React from 'react'
 import * as ReactDOMClient from 'react-dom/client'
+import Todo from './components/Todo.js'
 
 function App() {
   return (
     <div>
-      <h1>Hola</h1>
+      <Todo />
     </div>
   )
 }
