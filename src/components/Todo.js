@@ -66,6 +66,7 @@ function Todo() {
         <h3 className="Seguridad1">Compra tranquilo, tus datos</h3>
         <h3 className="Seguridad2">están seguros</h3>
         <a className="Seguridad3" href="https://shop.samsung.com/latin/gt/comprar-es-facil">Más información sobre seguridad</a>
+        <h2 className="Novedades">Novedades del mes</h2>
       </div>
     </div>
   )

@@ -206,7 +206,7 @@ body{
 /*Cuotas*/
 .Cuotas{
     position: relative;
-    top: -210px;
+    top: -220px;
     left: 730px;
 }
 
@@ -257,14 +257,14 @@ body{
 /*Propiedades de la imagen de compra*/
 .Compra{
     position: relative;
-    top: -610px;
+    top: -630px;
     left: 1040px;
 }
 
 /*Propiedades del texto 1 de Compra*/
 .Compra1{
     position: relative;
-    top: -640px;
+    top: -630px;
     left: 1020px;
     color: gray;
 }
@@ -273,7 +273,7 @@ body{
 .Compra2{
     position: relative;
     color: gray;
-    top: -655px;
+    top: -645px;
     left: 1045px;
 }
 
@@ -281,7 +281,7 @@ body{
 .Entrega{
     position: relative;
     color: #51A4FF;
-    top: -665px;
+    top: -655px;
     left: 1020px;
 }
 
@@ -300,7 +300,7 @@ body{
 /*Propiedades de la imagen de seguridad*/
 .Seguridad{
     position: relative;
-    top: -970px;
+    top: -990px;
     left: 1370px;
 }
 
@@ -326,4 +326,12 @@ body{
     color: #51A4FF;;
     top: -1030px;
     left: 1330px;
+}
+
+/*Propiedades del texto Novedades del Mes*/
+.Novedades{
+    position: relative;
+    top: -800px;
+    left: 800px;
+    font-size: 38px;
 }
