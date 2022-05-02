@@ -15,10 +15,12 @@ module.exports = {
   },
   plugins: [
     'react',
+    "jsx-a11y",
+    "import"
   ],
   rules: {
     "semi": 0,
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
   },
 };
