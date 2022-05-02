@@ -66,3 +66,28 @@ body{
     width: 125px;
     left: 280px;
 }
+
+/*Primer link*/
+.Mobile{
+    position: relative;
+    left: 400px;
+    /*font-family: 'Samsung Sharp Sans Regular';*/
+}
+
+/*Segundo link*/
+.TV{
+    position: relative;
+    left: 450px;   
+}
+
+/*Tercer link*/
+.Electrodomesticos{
+    position: relative;
+    left: 500px;
+}
+
+/*Cuarto link*/
+.Tienda{
+    position: relative;
+    left: 550px;
+}

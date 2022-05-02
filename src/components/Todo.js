@@ -1,5 +1,7 @@
 //  Javir Valle
 //  Carnet: 20159
+//  Copiando sitio web.
+//  Referencia: https://shop.samsung.com/latin/gt/
 import React from 'react'
 import styles from './Todo.css'
 import logo from './logo.png'
@@ -21,6 +23,10 @@ function Todo() {
       {/* Franja que tiene la imagen de Samsung */}
       <div className="Franja2">
         <img className="Logo" src={logo} alt="logo" />
+        <a className="Mobile">Mobile</a>
+        <a className="TV">TV & AV</a>
+        <a className="Electrodomesticos">Electrodomésticos</a>
+        <a className="Tienda">Tienda Online</a>
       </div>
     </div>
   )
