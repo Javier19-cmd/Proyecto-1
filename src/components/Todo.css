@@ -11,54 +11,6 @@ body{
     background-color: white;
 }
 
-/*Franja azul de hasta arriba de la página*/
-.Franja1{
-    position: relative;
-    color: white;
-    height: 30px;
-    width: 1900px;
-    top: -10px;
-    left: -10px;
-    background-color: #258DFF;
-}
-
-/*Texto Inicial*/
-.Inicial{
-    position: absolute;
-    top: 5px;
-    height: 30px;
-    font-size: 15px;
-    left: 830px;
-    animation: cambiar 5s infinite;
-}
-
-/*Texto de en medio*/
-.Medio{
-    position: absolute;
-    top: 25px;
-    height: 30px;
-    font-size: 15px;
-    left: 830px;
-    animation: cambiar 10s infinite;
-}
-
-/*Texto final*/
-.Final{
-    position: absolute;
-    top: 45px;
-    height: 40px;
-    font-size: 15px;
-    left: 750px;
-    animation: cambiar 10s infinite;
-}
-
-/*Animación del movimiento*/
-@keyframes cambiar {
-    0%{margin-top: -20px;}
-    50%{margin-top: -40px;}
-    100%{margin-top: -60px;}
-}
-
 /*Propiedades de la segunda franja*/
 .Franja2{
     position:absolute;
