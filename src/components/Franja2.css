@@ -14,25 +14,61 @@
 .Mobile{
     position: relative;
     left: 400px;
+    text-decoration: none;
+    color: black;
     /*font-family: 'Samsung Sharp Sans Regular';*/
+}
+
+/*Cambiando el color cuando se pone el mouse encima de la letra*/
+.Mobile:hover{
+    color: white;
+    background-color: black;
 }
 
 /*Segundo link*/
 .TV{
     position: relative;
-    left: 450px;   
+    left: 450px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Cambiando el color cuando se pone el mouse encima de la letra*/
+.TV:hover{
+    color: white;
+    background-color: black;
 }
 
 /*Tercer link*/
 .Electrodomesticos{
     position: relative;
     left: 500px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Cambiando el color cuando se pone el mouse encima de la letra*/
+.Electrodomesticos:hover{
+    color: white;
+    background-color: black;
 }
 
 /*Cuarto link*/
 .Tienda{
     position: relative;
     left: 550px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Cambiando el color cuando se pone el mouse encima de la letra*/
+.Tienda:hover{
+    color: white;
+    background-color: black;
+    /*width: 500px;
+    height: 500px;
+    line-height: 500px;
+    border-radius: 50%;*/
 }
 
 /*Propiedades de la banera*/

@@ -54,6 +54,7 @@
     top: 110px;
     left: 260px;
     color: #51A4FF;
+    text-decoration: none;
 }
 
 /*Propiedades de la línea 1*/
@@ -106,6 +107,7 @@
 .Cuota4{
     position: relative;
     color: #51A4FF;
+    text-decoration: none;
     top: -230px;
     left: 640px;
 }
@@ -119,38 +121,41 @@
     color:lightgray;
     background-color:rgb(211, 211, 211);
     top:-405px;
-    left: 950px;
+    left: 940px;
 }
 
 /*Propiedades de la imagen de compra*/
 .Compra{
     position: relative;
-    top: -630px;
-    left: 1040px;
+    top: -565px;
+    left: 1020px;
 }
 
 /*Propiedades del texto 1 de Compra*/
 .Compra1{
     position: relative;
-    top: -630px;
-    left: 1020px;
+    font-size: 15px;
+    top: -575px;
+    left: 1000px;
     color: gray;
 }
 
 /*Propiedades del texto 2 de Compra*/
 .Compra2{
     position: relative;
+    font-size: 15px;
     color: gray;
-    top: -645px;
-    left: 1045px;
+    top: -580px;
+    left: 1030px;
 }
 
 /*Propiedades del texto de entrega*/
 .Entrega{
     position: relative;
     color: #51A4FF;
-    top: -655px;
-    left: 1020px;
+    text-decoration: none;
+    top: -590px;
+    left: 960px;
 }
 
 /*Propiedades de la línea 3*/
@@ -161,39 +166,42 @@
     border-width:0;
     color:lightgray;
     background-color:rgb(211, 211, 211);
-    top:-800px;
+    top:-730px;
     left: 1280px;
 }
 
 /*Propiedades de la imagen de seguridad*/
 .Seguridad{
     position: relative;
-    top: -990px;
+    top: -890px;
     left: 1370px;
 }
 
 /*Propiedades del texto 1 de seguridad*/
 .Seguridad1{
     position: relative;
+    font-size: 15px;
     color: gray;
-    top: -1000px;
+    top: -905px;
     left: 1320px;
 }
 
 /*Propiedades del texto 2 de seguridad*/
 .Seguridad2{
     position: relative;
+    font-size: 15px;
     color: gray;
-    top: -1020px;
+    top: -910px;
     left: 1385px;
 }
 
 /*Propiedades del texto 3 de seguridad*/
 .Seguridad3{
     position: relative;
-    color: #51A4FF;;
-    top: -1030px;
-    left: 1330px;
+    color: #51A4FF;
+    text-decoration: none;
+    top: -920px;
+    left: 1300px;
 }
 
 /*Propiedades del texto Novedades del Mes*/
