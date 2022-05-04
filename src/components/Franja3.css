@@ -60,7 +60,7 @@
 /*Propiedades de la línea 1*/
 .Linea1{
     position: relative;
-    height:130px;
+    height:125px;
     width:.5px;
     border-width:0;
     color:lightgray;
@@ -161,7 +161,7 @@
 /*Propiedades de la línea 3*/
 .Linea3{
     position: relative;
-    height:130px;
+    height:125px;
     width:.5px;
     border-width:0;
     color:lightgray;
@@ -200,7 +200,7 @@
     position: relative;
     color: #51A4FF;
     text-decoration: none;
-    top: -920px;
+    top: -915px;
     left: 1300px;
 }
 
