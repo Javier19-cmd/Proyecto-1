@@ -1,0 +1,75 @@
+/*Propiedades de la segunda franja*/
+.Franja2{
+    position:absolute;
+}
+
+/*Propiedades del logo*/
+.Logo{
+    position: relative;
+    width: 125px;
+    left: 280px;
+}
+
+/*Primer link*/
+.Mobile{
+    position: relative;
+    left: 400px;
+    /*font-family: 'Samsung Sharp Sans Regular';*/
+}
+
+/*Segundo link*/
+.TV{
+    position: relative;
+    left: 450px;   
+}
+
+/*Tercer link*/
+.Electrodomesticos{
+    position: relative;
+    left: 500px;
+}
+
+/*Cuarto link*/
+.Tienda{
+    position: relative;
+    left: 550px;
+}
+
+/*Propiedades de la banera*/
+.Bandera{
+    position: relative;
+    width: 22px;
+    left: 900px;
+}
+
+/*Propiedades del GTQ*/
+.GTQ{
+    position: relative;
+    color: gray;
+    left: 1450px;
+    top: -35px;
+}
+
+/*Propiedades del ícono de perfil*/
+.Perfil{
+    position: relative;
+    width: 30px;
+    top: -75px;
+    left: 1550px;
+}
+
+/*Propiedades del ícono de la carretilla*/
+.Cart{
+    position: relative;
+    width: 30px;
+    top: -75px;
+    left: 1580px;
+}
+
+/*Propiedades del ícono de búsqueda*/
+.Search{
+    position: relative;
+    width: 30px;
+    top: -75px;
+    left: 1610px;
+}
