@@ -2,7 +2,7 @@
 //  Carnet 20159
 import React from 'react'
 import * as ReactDOMClient from 'react-dom/client'
-import Todo from './components/Todo.js'
+import Todo from './components/Todo'
 
 function App() {
   return (
