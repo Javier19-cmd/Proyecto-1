@@ -4,10 +4,18 @@ Movimiento del texto: https://www.youtube.com/watch?v=UWeFaJtqhxk&ab_channel=J%2
 Transición de objetos: https://webdesign.tutsplus.com/es/articles/css3-transitions-and-transforms-from-scratch--webdesign-4975
 Colores de los textos: https://htmlcolorcodes.com/color-picker/
 Hacer línea divisora: https://www.delftstack.com/es/howto/html/html-vertical-line/#:~:text=vertical%20en%20HTML.-,Utilice%20la%20propiedad%20CSS%20border-left%20para%20crear%20una%20línea,la%20propiedad%20CSS%20border-left%20.
+Aplicar font al texto: https://www.youtube.com/watch?v=tVhMV9XETwY&ab_channel=DorianDesings
 */
 
 body{
     position: absolute;
     background-color: white;
     display: flex;
+    font-family: "Fuente" /*Aplicando el font*/
+}
+
+/*Importando la fuente desde la carpeta de components*/
+@font-face {
+    font-family: "Fuente";
+    src: url("./samsungsharpsans.woff");
 }

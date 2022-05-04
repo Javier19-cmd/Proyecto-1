@@ -26,23 +26,25 @@
 /*Imagen de las promociones*/
 .Promociones{
     position: relative;
-    top: 150px;
-    left: 400px;
+    top: 140px;
+    left: 385px;
 }
 
 /*Texto de promociones*/
 .Promociones2{
     position: relative;
-    top: 140px;
-    left: 350px;
+    font-size: 15px;
+    top: 130px;
+    left: 325px;
     color: gray;
 }
 
 /*Segundo texto de promociones*/
 .Promociones3{
     position: relative;
+    font-size: 15px;
     top: 125px;
-    left: 400px;
+    left: 390px;
     color: gray;
 }
 
@@ -50,50 +52,53 @@
 .Promociones4{
     position: relative;
     top: 110px;
-    left: 330px;
+    left: 260px;
     color: #51A4FF;
 }
 
 /*Propiedades de la línea 1*/
 .Linea1{
     position: relative;
-    height:150px;
+    height:130px;
     width:.5px;
     border-width:0;
     color:lightgray;
     background-color:rgb(211, 211, 211);
-    top:-20px;
-    left: 610px;
+    top:-36px;
+    left: 620px;
 }
 
 /*Cuotas*/
 .Cuotas{
     position: relative;
-    top: -220px;
+    top: -200px;
     left: 730px;
 }
 
 /*Texto 1 de las cuotas*/
 .Cuota1{
     position: relative;
-    top: -225px;
-    left: 680px;
+    font-size: 15px;
+    top: -205px;
+    left: 660px;
     color: gray;
 }
 
 /*Texto 2 de las cuotas*/
 .Cuota2{
     position: relative;
-    top: -245px;
-    left: 730px;
+    font-size: 15px;
+    top: -213px;
+    left: 717px;
     color: gray;
 }
 
 /*Texto 3 de las cuotas*/
 .Cuota3{
     position: relative;
-    top: -265px;
-    left: 750px;
+    font-size: 15px;
+    top: -220px;
+    left: 740px;
     color: gray;
 }
 
@@ -101,19 +106,19 @@
 .Cuota4{
     position: relative;
     color: #51A4FF;
-    top: -280px;
-    left: 690px;
+    top: -230px;
+    left: 640px;
 }
 
 /*Propiedades de la línea 2*/
 .Linea2{
     position: relative;
-    height:150px;
+    height:130px;
     width:.5px;
     border-width:0;
     color:lightgray;
     background-color:rgb(211, 211, 211);
-    top:-430px;
+    top:-405px;
     left: 950px;
 }
 
@@ -151,7 +156,7 @@
 /*Propiedades de la línea 3*/
 .Linea3{
     position: relative;
-    height:150px;
+    height:130px;
     width:.5px;
     border-width:0;
     color:lightgray;
