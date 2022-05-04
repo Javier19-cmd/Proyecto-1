@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './Franja1.css'
 
 function Franja1() {
     return (
-        <div className="Franja1">
+        <div className="Franja1" style={styles}>
             <div className="Movimiento">
                 {/* Texto inicial de la franja */}
                 <h1 className="Inicial">Compra ahora con ENVÍO GRATIS</h1>
