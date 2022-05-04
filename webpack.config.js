@@ -5,9 +5,6 @@ export default{
   output: {
     filename: 'bundle.js',
   },
-  performance: {
-    hints: false,
-  },
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
