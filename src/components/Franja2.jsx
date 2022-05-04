@@ -7,7 +7,7 @@ import cart from './Cart.png'
 import search from './search.png'
 
 function Franja2() {
-  return(
+  return (
     <div className="Franja2" style={styles}>
       <img className="Logo" src={logo} alt="logo" />
       <a className="Mobile" href="https://shop.samsung.com/latin/gt/shop/smartphones.html">Mobile</a>

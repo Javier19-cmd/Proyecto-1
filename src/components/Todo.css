@@ -9,4 +9,5 @@ Hacer línea divisora: https://www.delftstack.com/es/howto/html/html-vertical-li
 body{
     position: absolute;
     background-color: white;
+    display: flex;
 }
