@@ -5,6 +5,7 @@ Transición de objetos: https://webdesign.tutsplus.com/es/articles/css3-transiti
 Colores de los textos: https://htmlcolorcodes.com/color-picker/
 Hacer línea divisora: https://www.delftstack.com/es/howto/html/html-vertical-line/#:~:text=vertical%20en%20HTML.-,Utilice%20la%20propiedad%20CSS%20border-left%20para%20crear%20una%20línea,la%20propiedad%20CSS%20border-left%20.
 Aplicar font al texto: https://www.youtube.com/watch?v=tVhMV9XETwY&ab_channel=DorianDesings
+Modficiar el scrollbar: https://www.digitalocean.com/community/tutorials/css-scrollbars-es
 */
 
 body{
@@ -13,6 +14,16 @@ body{
     display: flex;
     font-family: "Fuente" /*Aplicando el font*/
 }
+
+/*Modificando el scrollbar*/
+body::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+    /*height: 10px;*/
+}
+
+  body::-webkit-scrollbar-thumb {
+    background-color: gray;    /* color of the scroll thumb */
+  }
 
 /*Importando la fuente desde la carpeta de components*/
 @font-face {
