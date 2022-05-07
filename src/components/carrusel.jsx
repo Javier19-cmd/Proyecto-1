@@ -1,9 +1,9 @@
-import uno from 'I1.jpg'
-import dos from 'I2.jpg'
-import tres from 'I3.jpg'
-import cuatro from 'I4.jpg'
-import cinco from 'I5.jpg'
-import seis from 'I6.jpg'
+import uno from './I1.jpg'
+import dos from './I2.jpg'
+import tres from './I3.jpg'
+import cuatro from './I4.jpg'
+import cinco from './I5.jpg'
+import seis from './I6.jpg'
 
 export default [{
   title: 'Uno',

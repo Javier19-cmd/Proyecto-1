@@ -1,9 +1,12 @@
 //Configuración del webpack
 export default{
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.jsx',
   output: {
     filename: 'bundle.js',
+  },
+  performance: {
+    hints: false,
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
@@ -26,12 +29,11 @@ export default{
     {
       test: /\.css$/,
       use: ['style-loader', 'css-loader'],
-    },
+   },
     {
       type: 'asset',
       test: /\.(png|svg|jpg|jpeg|gif)$/i
-    }
+    },
     ]
   }
 }
-  
