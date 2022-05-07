@@ -4,12 +4,10 @@ import promociones from './Promocines.png'
 import cuotas from './Cuotas.jpg'
 import compra from './Compra.png'
 import seguridad from './Seguridad.jpg'
-import Slider from './Slider'
 
 function Franja3() {
   return (
     <div className="Framja3" style={styles}>
-      <Slider />
       <img className="Promociones" src={promociones} alt="Promociones" />
       <h3 className="Promociones2">Promociones exclusivas con</h3>
       <h3 className="Promociones3">Garantía Local</h3>
