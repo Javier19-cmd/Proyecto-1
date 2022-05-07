@@ -1,4 +1,4 @@
-// Hacer un carrusel: https://www.youtube.com/watch?v=F4mI4Q9WklA&ab_channel=Neplead
+// Hacer un carrusel: https://www.youtube.com/watch?v=cKux39Y0fxw&ab_channel=GYPZ
 
 import React from 'react'
 import styles from './Franja3.css'
