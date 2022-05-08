@@ -76,22 +76,22 @@
     position: relative;
     width: 22px;
     left: 900px;
-    top: 2px;
+    top: 5px;
 }
 
 /*Propiedades del GTQ*/
 .GTQ{
     position: relative;
     color: gray;
-    left: 1450px;
-    top: -35px;
+    left: 1460px;
+    top: -15px;
 }
 
 /*Propiedades del ícono de perfil*/
 .Perfil{
     position: relative;
     width: 30px;
-    top: -75px;
+    top: -40px;
     left: 1550px;
 }
 
@@ -99,7 +99,7 @@
 .Cart{
     position: relative;
     width: 30px;
-    top: -75px;
+    top: -40px;
     left: 1580px;
 }
 
@@ -107,6 +107,6 @@
 .Search{
     position: relative;
     width: 30px;
-    top: -75px;
+    top: -40px;
     left: 1610px;
 }

@@ -11,6 +11,7 @@ import Carrusel from './Carrusel/carrusel'
 function Franja3() {
   return (
     <div className="Framja3" style={styles}>
+      {/* Componente del carrusel */}
       <Carrusel />
       <img className="Promociones" src={promociones} alt="Promociones" />
       <h3 className="Promociones2">Promociones exclusivas con</h3>
