@@ -1,3 +1,4 @@
+// Hacer un menú de navegación desplegable: https://www.youtube.com/watch?v=HM1lb5t6eNU&list=PLE9dKsjFKblJymWQGoBYINColZgOCcTJk&index=3&ab_channel=DaniCodex
 import React from 'react'
 import styles from './Franja2.css'
 import logo from './logo.png'
@@ -10,7 +11,14 @@ function Franja2() {
   return (
     <div className="Franja2" style={styles}>
       <img className="Logo" src={logo} alt="logo" />
-      <a className="Mobile" href="https://shop.samsung.com/latin/gt/shop/smartphones.html">Mobile</a>
+      <a className="Mobile" href="https://shop.samsung.com/latin/gt/shop/smartphones.html">Mobile
+        <ul className="ul-second">
+          <li className="Smartphones">Smartphones</li>
+          <li className="Tablets">Tablets</li>
+          <li className="Wearables">Wearables</li>
+          <li className="Accesorios">Accesorios</li>
+        </ul>
+      </a>
       <a className="TV" href="https://shop.samsung.com/latin/gt/shop/tv-av.html">TV & AV</a>
       <a className="Electrodomesticos" href="https://shop.samsung.com/latin/gt/shop/electrodomesticos.html">Electrodomésticos</a>
       <a className="Tienda" href="https://shop.samsung.com/latin/gt/">Tienda Online</a>

@@ -19,6 +19,19 @@
     /*font-family: 'Samsung Sharp Sans Regular';*/
 }
 
+.ul-second{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+}
+
+.ul-second > li {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    transform: translateX(-20px);
+    padding: 20px;
+}
 /*Cambiando el color cuando se pone el mouse encima de la letra*/
 .Mobile:hover{
     color: white;
