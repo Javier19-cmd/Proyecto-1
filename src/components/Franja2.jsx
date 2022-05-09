@@ -11,7 +11,8 @@ function Franja2() {
   return (
     <div className="Franja2" style={styles}>
       <img className="Logo" src={logo} alt="logo" />
-      <a className="Mobile" href="https://shop.samsung.com/latin/gt/shop/smartphones.html">Mobile
+      <a className="Mobile" href="https://shop.samsung.com/latin/gt/shop/smartphones.html">
+        Mobile
         <ul className="ul-second">
           <li className="Smartphones">Smartphones</li>
           <li className="Tablets">Tablets</li>

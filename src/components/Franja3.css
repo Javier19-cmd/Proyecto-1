@@ -187,7 +187,7 @@
 /*Propiedades del texto Novedades del Mes*/
 .Novedades{
     position: relative;
-    top: -200px;
-    left: 720px;
-    font-size: 38px;
+    font-size: 30px;
+    top: -590px;
+    left: 760px;
 }

@@ -28,5 +28,5 @@ body::-webkit-scrollbar {
 /*Importando la fuente desde la carpeta de components*/
 @font-face {
     font-family: "Fuente";
-    src: url("./samsungsharpsans.woff");
+    src: url("./samsungsharpsans-medium.woff");
 }

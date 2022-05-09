@@ -1,0 +1,94 @@
+.Pie_Pagina{
+    position: absolute;
+}
+
+/*Propiedades del footer*/
+.Foot{
+    position: absolute;
+    height: 75px;
+    top: 150px;
+    width: 1900px;
+    background-color: rgb(233, 233, 233);
+}
+
+/*Propiedades del texto de copyright*/
+.Copy{
+    position: relative;
+    font-size: 12px;
+    color: gray;
+    top: 30px;
+    left: 220px;
+}
+
+/*Propiedades del texto de ayuda*/
+.Ayuda{
+    position: relative;
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    top: 15px;
+    left: 1300px;
+}
+
+/*Propiedades del texto de privacidad*/
+.Privacidad{
+    position: relative;
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    left: 1550px;
+}
+
+/*Propieades del texto legal*/
+.Legal{
+    position: relative;
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    top: -15px;
+    left: 1700px;
+}
+
+/*Propiedad general de secciones*/
+.Secciones{
+    position: absolute;
+}
+
+/*Texto de secciones*/
+.Sec{
+    position: relative;
+    font-size: 15px;
+    left: 250px;
+    top: -400px;
+}
+
+/*Propiedades del texto conocenos*/
+.Conocenos{
+    position: relative;
+    font-size: 14px;
+    top: -360px;
+    left: 250px;
+}
+
+/*Propiedades del texto de soporte*/
+.Soporte{
+    position: relative;
+    font-size: 14px;
+    top: -340px;
+    left: 165px;
+}
+
+/*Propiedades del texto de ventas*/
+.Ventas{
+    position: relative;
+    font-size: 14px;
+    top: -320px;
+    left: 105px;
+}
+
+/*Propiedades generales de la sección de soporte*/
+.Soporte{
+    position: absolute;
+}
+
+.Necesitas{
+    position: relative;
+    left: 200px;
+}
