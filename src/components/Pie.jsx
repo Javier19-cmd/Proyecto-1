@@ -5,8 +5,7 @@ function Pie() {
   return (
     <div className="Pie_Pagina" styles={styles}>
       <footer className="Foot">
-        
-        {/*Pie de la página*/}
+        {/* Pie de la página */}
         <div className="Copy">
           <p>Copyright © 1995-2020 SAMSUNG. Todos los drechos reservado</p>
         </div>
@@ -32,6 +31,18 @@ function Pie() {
           <a className="Telefonico" href="https://shop.samsung.com/latin/gt/faqs">Soporte telefónico</a>
           <p className="Mail">Soporte vía eMail</p>
           <a className="Preguntas" href="https://shop.samsung.com/latin/gt/faqs">Preguntas frecuentes</a>
+        </div>
+
+        <div className="Sitios">
+          <p className="Oficiales">Sitios Oficiales</p>
+          <a className="Costa-Rica" href="https://www.samsung.com/latin/microsite/costa-rica/">Samsung Costa Rica</a>
+          <a className="Ecuador" herf="https://www.samsung.com/latin/microsite/ecuador/">Samsung Ecuador</a>
+          <a className="El-Salvador" herf="https://www.samsung.com/latin/microsite/el-salvador/">Samsung El Salvador</a>
+          <a className="Guatemala" href="https://www.samsung.com/latin/microsite/guatemala/">Samsung Guatemala</a>
+          <a className="Honduras" href="https://www.samsung.com/latin/microsite/honduras/">Samsung Honduras</a>
+          <a className="Nicaragua" href="https://www.samsung.com/latin/microsite/nicaragua/">Samsung Nicaragua</a>
+          <a className="Panama" herf="https://www.samsung.com/latin/microsite/panama/">Samsung Panamá</a>
+          <a className="Republica-Dominicana">República Dominicana</a>
         </div>
       </footer>
     </div>

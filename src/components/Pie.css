@@ -88,7 +88,29 @@
     position: absolute;
 }
 
+/*Propiedades del texto de necesitas*/
 .Necesitas{
     position: relative;
-    left: 200px;
+    left: 250px;
+    top: -2px;
+}
+
+/*Propiedades de la etiqueta de telefónico*/
+.Telefonico{
+    position: relative;
+    left: 250px;
+    top: 15px;
+}
+
+/*Propiedades del texto mail*/
+.Mail{
+    position: relative;
+    left: 250px;
+    top: 25px;
+}
+
+.Preguntas{
+    position: relative;
+    left: 250px;
+    top: 35px;
 }
