@@ -59,20 +59,28 @@
 }
 
 /*Propiedades del check: Aquí se está moviendo el slider a como se selecciona el título*/
-#smartphnes:checked ~ nav .slider{
-    left: 30%;
+#productos:checked ~ nav .slider{
+    left: 0%;
+}
+
+#smartphones:checked ~ nav .slider{
+    left: 18%;
 }
 
 #tablets:checked ~ nav .slider{
+    left: 35%;
+}
+
+#TV:checked ~ nav .slider{
     left: 50%;
 }
 
 #TV:checked ~ nav .slider{
-    left: 80%;
+    left: 55%;
 }
 
-#TV:checked ~ nav .slider{
-    left: 100%;
+#Elec:checked ~ nav .slider{
+    left: 65%;
 }
 
 /*Desapareciendo el check*/

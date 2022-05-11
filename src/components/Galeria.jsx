@@ -1,3 +1,5 @@
+// Referencias: 
+// Css tabs: https://www.youtube.com/watch?v=QtwXQdlvyWA&t=22s&ab_channel=CodingNepal
 import React from 'react'
 import styles from './Galeria.css'
 
