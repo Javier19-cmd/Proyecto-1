@@ -1,4 +1,4 @@
-// Referencias: 
+// Referencias:
 // Css tabs: https://www.youtube.com/watch?v=QtwXQdlvyWA&t=22s&ab_channel=CodingNepal
 import React from 'react'
 import styles from './Galeria.css'
@@ -6,8 +6,6 @@ import styles from './Galeria.css'
 function Galeria() {
   return (
     <div className="Wrapper" style={styles}>
-      <header>Pure CSS Tabs</header>
-
       {/* Slider */}
       <input type="radio" name="slider" id="productos" checked />
       <input type="radio" name="slider" id="smartphones" />
@@ -34,7 +32,7 @@ function Galeria() {
         <div className="slider" />
       </nav>
 
-      {/* Las imágenes que va a tener cada sección */}
+      {/* Sección en donde irán las imágenes */}
       <section>
         <div className="content content-1">
           <div className="Title">Encabezado 1</div>
@@ -60,7 +58,6 @@ function Galeria() {
           <div className="Title">Encabezado 5</div>
           <p>Lorem ipsum</p>
         </div>
-      
       </section>
     </div>
   )

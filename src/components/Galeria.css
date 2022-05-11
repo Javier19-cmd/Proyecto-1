@@ -45,12 +45,13 @@
 }
 
 /*Creando slider*/
+/*Arreglar*/
 .Wrapper nav .slider{
     position: absolute;
     height: 2%;
     width: 10%;
     text-decoration: underline;
-    background-color: blue;
+    background-color: rgb(59, 59, 255);
     border-radius: 5px;
     z-index: 0;
     left: 0;
@@ -99,7 +100,7 @@ section .content{
 }
 
 /*Propiedades del segundo contenido*/
-#smartphnes:checked ~ section .content-2{
+#smartphones:checked ~ section .content-2{
     display: block;
 }
 
