@@ -75,6 +75,45 @@
     left: 100%;
 }
 
+/*Desapareciendo el check*/
 input[type="radio"]{
     display: none;
+}
+
+/*Escondiendo el contenido*/
+section .content{
+    display: none;
+}
+
+/*Propiedades del primer contenido*/
+#productos:checked ~ section .content-1{
+    display: block;
+}
+
+/*Propiedades del segundo contenido*/
+#smartphnes:checked ~ section .content-2{
+    display: block;
+}
+
+/*Propiedades del tercer contenido*/
+
+#tablets:checked ~ section .content-3{
+    display: block;
+}
+
+/*Propiedades del cuarto contenido*/
+
+#TV:checked ~ section .content-4{
+    display: block;
+}
+
+/*Propiedades del quinto contenido*/
+
+#Elec:checked ~ section .content-5{
+    display: block;
+}
+
+/*propiedades del título de cada sección*/
+section .content .Title{
+    font-size: 21px;
 }
