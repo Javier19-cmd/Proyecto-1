@@ -5,6 +5,76 @@
 /*Propiedades de la galería*/
 .Wrapper{
     position: relative;
-    top: -500px;
-    margin: 20px;
+    top: -600px;
+    margin: 130px;
+    padding: 50px 100px 100px 100px 100px;
+}
+
+/*Propiedades del header*/
+.Wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*Propiedades del nav*/
+.Wrapper nav{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+/*Propieades del texto del nav*/
+.Wrapper nav label {
+    display: block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+/*Propieades de los i's*/
+.Wrapper nav label i {
+    padding-right: 7px;
+}
+
+/*Creando slider*/
+.Wrapper nav .slider{
+    position: absolute;
+    height: 2%;
+    width: 10%;
+    text-decoration: underline;
+    background-color: blue;
+    border-radius: 5px;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+/*Propiedades del check: Aquí se está moviendo el slider a como se selecciona el título*/
+#smartphnes:checked ~ nav .slider{
+    left: 30%;
+}
+
+#tablets:checked ~ nav .slider{
+    left: 50%;
+}
+
+#TV:checked ~ nav .slider{
+    left: 80%;
+}
+
+#TV:checked ~ nav .slider{
+    left: 100%;
+}
+
+input[type="radio"]{
+    display: none;
 }
