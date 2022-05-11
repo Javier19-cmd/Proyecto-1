@@ -35,31 +35,33 @@ function Galeria() {
       </nav>
 
       {/* Las imágenes que va a tener cada sección */}
-      <section className="content-1">
-        <div className="Title">Encabezado 1</div>
-        <p>Lorem ipsum</p>
-      </section>
+      <section>
+        <div className="content content-1">
+          <div className="Title">Encabezado 1</div>
+          <p>Lorem ipsum</p>
+        </div>
 
-      <section className="content-2">
-        <div className="Title">Encabezado 2</div>
-        <p>Lorem ipsum</p>
-      </section>
+        <div className="content content-2">
+          <div className="Title">Encabezado 2</div>
+          <p>Lorem ipsum</p>
+        </div>
 
-      <section className="content-3">
-        <div className="Title">Encabezado 3</div>
-        <p>Lorem ipsum</p>
-      </section>
+        <div className="content content-3">
+          <div className="Title">Encabezado 3</div>
+          <p>Lorem ipsum</p>
+        </div>
 
-      <section className="content-4">
-        <div className="Title">Encabezado 4</div>
-        <p>Lorem ipsum</p>
-      </section>
+        <div className="content content-4">
+          <div className="Title">Encabezado 4</div>
+          <p>Lorem ipsum</p>
+        </div>
 
-      <section className="content-5">
-        <div className="Title">Encabezado 5</div>
-        <p>Lorem ipsum</p>
+        <div className="content content-5">
+          <div className="Title">Encabezado 5</div>
+          <p>Lorem ipsum</p>
+        </div>
+      
       </section>
-
     </div>
   )
 }

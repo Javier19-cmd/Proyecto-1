@@ -76,11 +76,11 @@
 }
 
 #TV:checked ~ nav .slider{
-    left: 55%;
+    left: 51%;
 }
 
 #Elec:checked ~ nav .slider{
-    left: 65%;
+    left: 66%;
 }
 
 /*Desapareciendo el check*/
