@@ -7,6 +7,7 @@ import styles from './Todo.css'
 import Franja1 from './Franja1'
 import Franja2 from './Franja2'
 import Franja3 from './Franja3'
+import Galeria from './Galeria'
 import Pie from './Pie'
 
 function Todo() {
@@ -15,6 +16,7 @@ function Todo() {
       <Franja1 />
       <Franja2 />
       <Franja3 />
+      <Galeria />
       <Pie />
     </div>
   )
