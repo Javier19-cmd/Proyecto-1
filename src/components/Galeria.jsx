@@ -9,6 +9,24 @@ import Tres from './Imagen3.png'
 import Cuatro from './Imagen4.png'
 import Cinco from './Imagen5.jpg'
 
+/* Imágenes del segundo apartado de la galería */
+import Seis from './Imagen6.png'
+import Siete from './Imagen7.png'
+
+/* Imágenes del tercer apartado de la galería */
+import Ocho from './Imagen8.png'
+import Nueve from './Imagen9.png'
+import Diez from './Imagen10.png'
+import Once from './Imagen11.png'
+import Doce from './Imagen12.png'
+
+/* Imágenes del cuarto apartado de la galería */
+import Trece from './Imagen13.png'
+import Catorce from './Imagen14.png'
+import Quince from './Imagen15.png'
+import Dieciseis from './Imagen16.png'
+import Diecisiete from './Imagen17.png'
+
 function Galeria() {
   return (
     <div className="Wrapper" style={styles}>
@@ -51,19 +69,36 @@ function Galeria() {
         </div>
 
         <div className="content content-2">
-          <div className="Title">Encabezado 2</div>
+          <div className="Conte2">
+            <img src={Seis} alt="Seis" className="Seis" />
+            <img src={Siete} alt="Siete" className="Siete" />
+          </div>
         </div>
 
         <div className="content content-3">
-          <div className="Title">Encabezado 3</div>
+          <div className="Conte3">
+            <img src={Ocho} alt="Ocho" className="Ocho" />
+            <img src={Nueve} alt="Nueve" className="Nueve" />
+            <img src={Diez} alt="Diez" className="Diez" />
+            <img src={Once} alt="Once" className="Once" />
+            <img src={Doce} alt="Doce" className="Doce" />
+          </div>
         </div>
 
         <div className="content content-4">
-          <div className="Title">Encabezado 4</div>
+          <div className="Conte4">
+          <img src={Trece} alt="Trece" className="Trece" />
+            <img src={Catorce} alt="Catorce" className="Catorce" />
+            <img src={Quince} alt="Quince" className="Quince" />
+            <img src={Dieciseis} alt="Dieciseis" className="Dieciseis" />
+            <img src={Diecisiete} alt="Diecisiete" className="Diecisiete" />
+          </div>
         </div>
 
         <div className="content content-5">
-          <div className="Title">Encabezado 5</div>
+          <div className="Conte5">
+            Encabezado 5
+          </div>
         </div>
       </section>
     </div>

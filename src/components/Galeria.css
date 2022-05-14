@@ -101,30 +101,52 @@ section .content{
 
 /*Propiedades del segundo contenido*/
 #smartphones:checked ~ section .content-2{
-    display: block;
+    display: grid;
 }
 
 /*Propiedades del tercer contenido*/
 
 #tablets:checked ~ section .content-3{
-    display: block;
+    display: grid;
 }
 
 /*Propiedades del cuarto contenido*/
 
 #TV:checked ~ section .content-4{
-    display: block;
+    display: grid;
 }
 
 /*Propiedades del quinto contenido*/
 
 #Elec:checked ~ section .content-5{
-    display: block;
+    display: grid;
 }
 
 /*propiedades del título de cada sección*/
 section .content .Title{
     font-size: 21px;
+}
+
+/*Cambiando los tamaños de los títulos*/
+
+.Destacados{
+    font-size: 15px;
+}
+
+.Smartphones{
+    font-size: 15px;
+}
+
+.Tablets{
+    font-size: 15px;
+}
+
+.Av{
+    font-size: 15px;
+}
+
+.Electrodos{
+    font-size: 15px;
 }
 
 section .content .Conte1 .Uno{
@@ -134,16 +156,127 @@ section .content .Conte1 .Uno{
 /*Segunda imagen del primer apartado*/
 section .content .Conte1 .Dos{
     position: relative;
-    top: -150px;
+    top: -250px;
     border-radius: 7%;
     size: 200%;
 }
 
-/*Segunda imagen del primer apartado*/
+/*Tercera imagen del primer apartado*/
 section .content .Conte1 .Tres{
     position: relative;
-    top: -150px;
+    top: -250px;
     left: 50px;
     border-radius: 7%;
     size: 200%;
+}
+
+/*Cuarta imagen del primer apartado*/
+section .content .Conte1 .Cuatro{
+    position: relative;
+    top: 100px;
+    left: -600px;
+    border-radius: 7%;
+    size: 200%;
+}
+
+/*Quinta imagen del primer apartado*/
+section .content .Conte1 .Cinco{
+    position: relative;
+    top: -160px;
+    left: 975px;
+    border-radius: 7%;
+    size: 200%;
+}
+
+/*Primera imagen del segundo apartado*/
+section .content .Conte2 .Seis{
+    position: relative;
+    border-radius: 7%;
+    top: 50px;
+    left: 50px;
+    left: 200px;
+}
+
+/*Segunda imagen del segundo apartado*/
+section .content .Conte2 .Siete{
+    position: relative;
+    border-radius: 7%;
+    top: 50px;
+    left: 200px;
+}
+
+/*Primera imagen del tercer apartado*/
+section .content .Conte3 .Ocho{
+    position: relative;
+    border-radius: 7%;
+}
+
+/*Segunda imagen del tercer apartado*/
+section .content .Conte3 .Nueve{
+    position: relative;
+    border-radius: 7%;
+    top: -200px;
+    left: 25px;
+}
+
+/*Tercera imagen del tercer apartado*/
+section .content .Conte3 .Diez{
+    position: relative;
+    border-radius: 7%;
+    top: -200px;
+    left: 50px;
+}
+
+/*Cuarta imagen del tercer apartado*/
+section .content .Conte3 .Once{
+    position: relative;
+    border-radius: 7%;
+    top: 20px;
+    left: -600px;
+}
+
+/*Quinta imagen del tercer apartado*/
+section .content .Conte3 .Doce{
+    position: relative;
+    border-radius: 7%;
+    top: -225px;
+    left: 950px;
+}
+
+/*Primera imagen del cuarto apartado*/
+section .content .Conte4 .Trece{
+    position: relative;
+    border-radius: 7%;
+}
+
+/*Segunda imagen del cuarto apartado*/
+section .content .Conte4 .Catorce{
+    position: relative;
+    border-radius: 7%;
+    top: -225px;
+    left: 950px;
+}
+
+/*Tercera imagen del cuarto apartado*/
+section .content .Conte4 .Quince{
+    position: relative;
+    border-radius: 7%;
+    top: -225px;
+    left: 950px;
+}
+
+/*Cuarta imagen del cuarto apartado*/
+section .content .Conte4 .Dieciseis{
+    position: relative;
+    border-radius: 7%;
+    top: -225px;
+    left: 950px;
+}
+
+/*Quinta imagen del cuarto apartado*/
+section .content .Conte4 .Diecisiete{
+    position: relative;
+    border-radius: 7%;
+    top: -225px;
+    left: 950px;
 }
