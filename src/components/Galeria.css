@@ -247,6 +247,7 @@ section .content .Conte3 .Doce{
 section .content .Conte4 .Trece{
     position: relative;
     border-radius: 7%;
+    left: 200px;
 }
 
 /*Segunda imagen del cuarto apartado*/
@@ -254,7 +255,7 @@ section .content .Conte4 .Catorce{
     position: relative;
     border-radius: 7%;
     top: -225px;
-    left: 950px;
+    left: 300px;
 }
 
 /*Tercera imagen del cuarto apartado*/
@@ -262,21 +263,62 @@ section .content .Conte4 .Quince{
     position: relative;
     border-radius: 7%;
     top: -225px;
-    left: 950px;
+    left: 330px;
 }
 
 /*Cuarta imagen del cuarto apartado*/
 section .content .Conte4 .Dieciseis{
     position: relative;
     border-radius: 7%;
-    top: -225px;
-    left: 950px;
+    top: 50px;
+    left: 20px;
 }
 
 /*Quinta imagen del cuarto apartado*/
 section .content .Conte4 .Diecisiete{
     position: relative;
     border-radius: 7%;
+    top: -200px;
+    left: 900px;
+}
+
+/*Primera imagen del quinto apartado*/
+section .content .Conte5 .Dieciocho{
+    position: relative;
+    border-radius: 7%;
+    height: 69%;
+    top: 20px;
+    left: 200px;
+}
+
+/*Primera imagen del quinto apartado*/
+section .content .Conte5 .Diecinueve{
+    position: relative;
+    border-radius: 7%;
+    top: -240px;
+    left: 250px;
+}
+
+/*Cuarta imagen del cuarto apartado*/
+section .content .Conte5 .Veinte{
+    position: relative;
+    border-radius: 7%;
+    top: -240px;
+    left: 275px;
+}
+
+/*Cuarta imagen del cuarto apartado*/
+section .content .Conte5 .Veintiuno{
+    position: relative;
+    border-radius: 7%;
+    top: 20px;
+    left: -350px;
+}
+
+/*Cuarta imagen del cuarto apartado*/
+section .content .Conte5 .Veintidos{
+    position: relative;
+    border-radius: 7%;
     top: -225px;
-    left: 950px;
+    left: 1200px;
 }

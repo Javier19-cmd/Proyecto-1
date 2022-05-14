@@ -27,6 +27,13 @@ import Quince from './Imagen15.png'
 import Dieciseis from './Imagen16.png'
 import Diecisiete from './Imagen17.png'
 
+/* Imágenes del quinto apartado de la galería */
+import Dieciocho from './Imagen18.jpg'
+import Diecinueve from './Imagen19.jpg'
+import Veinte from './Imagen20.jpg'
+import Veintiuno from './Imagen21.jpg'
+import Veintidos from './Imagen22.jpg'
+
 function Galeria() {
   return (
     <div className="Wrapper" style={styles}>
@@ -87,7 +94,7 @@ function Galeria() {
 
         <div className="content content-4">
           <div className="Conte4">
-          <img src={Trece} alt="Trece" className="Trece" />
+            <img src={Trece} alt="Trece" className="Trece" />
             <img src={Catorce} alt="Catorce" className="Catorce" />
             <img src={Quince} alt="Quince" className="Quince" />
             <img src={Dieciseis} alt="Dieciseis" className="Dieciseis" />
@@ -97,7 +104,11 @@ function Galeria() {
 
         <div className="content content-5">
           <div className="Conte5">
-            Encabezado 5
+            <img src={Dieciocho} alt="Dieciocho" className="Dieciocho" />
+            <img src={Diecinueve} alt="Diecinueve" className="Diecinueve" />
+            <img src={Veinte} alt="Veinte" className="Veinte" />
+            <img src={Veintiuno} alt="Veintiuno" className="Veintiuno" />
+            <img src={Veintidos} alt="Veintidos" className="Veintidos" />
           </div>
         </div>
       </section>
