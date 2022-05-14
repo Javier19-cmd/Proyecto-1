@@ -61,19 +61,19 @@
 
 /*Propiedades del check: Aquí se está moviendo el slider a como se selecciona el título*/
 #productos:checked ~ nav .slider{
-    left: 0%;
+    left: 5%;
 }
 
 #smartphones:checked ~ nav .slider{
-    left: 18%;
+    left: 25%;
 }
 
 #tablets:checked ~ nav .slider{
-    left: 35%;
+    left: 45%;
 }
 
 #TV:checked ~ nav .slider{
-    left: 50%;
+    left: 110%;
 }
 
 #TV:checked ~ nav .slider{
@@ -120,11 +120,6 @@ section .content{
 
 #Elec:checked ~ section .content-5{
     display: grid;
-}
-
-/*propiedades del título de cada sección*/
-section .content .Title{
-    font-size: 21px;
 }
 
 /*Cambiando los tamaños de los títulos*/
@@ -321,4 +316,10 @@ section .content .Conte5 .Veintidos{
     border-radius: 7%;
     top: -225px;
     left: 1200px;
+}
+
+/*Moviendo los títulos más hacia el medio*/
+.Titus{
+    position: relative;
+    left: 100px;
 }

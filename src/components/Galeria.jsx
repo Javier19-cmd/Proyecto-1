@@ -44,7 +44,7 @@ function Galeria() {
       <input type="radio" name="slider" id="TV" />
       <input type="radio" name="slider" id="Elec" />
       {/* Navbar para las galerías de imágenes */}
-      <nav>
+      <nav className="Titus">
         <label htmlFor="productos" name="productos">
           <i className="Destacados">Productos Destacados</i>
         </label>
@@ -60,7 +60,7 @@ function Galeria() {
         <label htmlFor="Elec" name="Elec">
           <i className="Electrodos">Electrodomésticos</i>
         </label>
-        <div className="slider" />
+        {/*<div className="slider" />*/}
       </nav>
 
       {/* Sección en donde irán las imágenes */}
