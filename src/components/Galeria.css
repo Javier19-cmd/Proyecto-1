@@ -96,7 +96,7 @@ section .content{
 
 /*Propiedades del primer contenido*/
 #productos:checked ~ section .content-1{
-    display: block;
+    display: grid;
 }
 
 /*Propiedades del segundo contenido*/

@@ -2,6 +2,11 @@
 // Css tabs: https://www.youtube.com/watch?v=QtwXQdlvyWA&t=22s&ab_channel=CodingNepal
 import React from 'react'
 import styles from './Galeria.css'
+import Uno from './Imagen1.png'
+import Dos from './Imagen2.png'
+import Tres from './Imagen3.png'
+import Cuatro from './Imagen4.png'
+import Cinco from './Imagen5.png'
 
 function Galeria() {
   return (
@@ -35,28 +40,25 @@ function Galeria() {
       {/* Sección en donde irán las imágenes */}
       <section>
         <div className="content content-1">
-          <div className="Title">Encabezado 1</div>
-          <p>Lorem ipsum</p>
+          <div className="Title">
+            <img src={Imagen1} />
+          </div>
         </div>
 
         <div className="content content-2">
           <div className="Title">Encabezado 2</div>
-          <p>Lorem ipsum</p>
         </div>
 
         <div className="content content-3">
           <div className="Title">Encabezado 3</div>
-          <p>Lorem ipsum</p>
         </div>
 
         <div className="content content-4">
           <div className="Title">Encabezado 4</div>
-          <p>Lorem ipsum</p>
         </div>
 
         <div className="content content-5">
           <div className="Title">Encabezado 5</div>
-          <p>Lorem ipsum</p>
         </div>
       </section>
     </div>
