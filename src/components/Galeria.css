@@ -126,3 +126,24 @@ section .content{
 section .content .Title{
     font-size: 21px;
 }
+
+section .content .Conte1 .Uno{
+    size: 100%;
+}
+
+/*Segunda imagen del primer apartado*/
+section .content .Conte1 .Dos{
+    position: relative;
+    top: -150px;
+    border-radius: 7%;
+    size: 200%;
+}
+
+/*Segunda imagen del primer apartado*/
+section .content .Conte1 .Tres{
+    position: relative;
+    top: -150px;
+    left: 50px;
+    border-radius: 7%;
+    size: 200%;
+}
