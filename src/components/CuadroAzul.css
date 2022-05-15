@@ -1,0 +1,10 @@
+.General{
+    position: relative;
+    top: -800px;
+    left: 325px;
+}
+
+.Cuadro{
+    position: absolute;
+    border-radius: 5%;
+}

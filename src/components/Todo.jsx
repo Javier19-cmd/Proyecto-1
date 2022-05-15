@@ -8,15 +8,17 @@ import Franja1 from './Franja1'
 import Franja2 from './Franja2'
 import Franja3 from './Franja3'
 import Galeria from './Galeria'
+import CuadroAzul from './CuadroAzul'
 import Pie from './Pie'
 
 function Todo() {
-  return (
+  return(
     <div className="Todo" style={styles}>
       <Franja1 />
       <Franja2 />
       <Franja3 />
       <Galeria />
+      <CuadroAzul />
       <Pie />
     </div>
   )

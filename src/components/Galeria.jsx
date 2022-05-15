@@ -60,7 +60,7 @@ function Galeria() {
         <label htmlFor="Elec" name="Elec">
           <i className="Electrodos">Electrodomésticos</i>
         </label>
-        {/*<div className="slider" />*/}
+        {/* <div className="slider" /> */}
       </nav>
 
       {/* Sección en donde irán las imágenes */}
