@@ -9,16 +9,18 @@ import Franja2 from './Franja2'
 import Franja3 from './Franja3'
 import Galeria from './Galeria'
 import CuadroAzul from './CuadroAzul'
+import CuadroNegro from './CuadroNegro'
 import Pie from './Pie'
 
 function Todo() {
-  return(
+  return (
     <div className="Todo" style={styles}>
       <Franja1 />
       <Franja2 />
       <Franja3 />
       <Galeria />
       <CuadroAzul />
+      <CuadroNegro />
       <Pie />
     </div>
   )
