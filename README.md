@@ -23,3 +23,9 @@ El responsable, en este caso, de mantener y contribuir propiamente con el proyec
 ¿Qué tecnología se usó y por qué?
 
 La tecnología utilizada para este proyecto es únicamente React, pues es una tecnología que ha tenido un gran peso últimamente en los frameworks de JavaScript y en las tecnologías web. Por otro lado, React actualmente cuenta con una gran documentación y con tutoriales bastante recientes para consultar. Finalmente, React se está usando porque tiene bastante soporte por parte de los creadores, pues se trata de una tecnología bastante reciente.
+
+
+Para poder correr el proyecto, se debe ejecutar lo siguiente: 
+
+1. npm install para poder obtener todos los módulos que se usan en el proyecto.
+2. npm start para poder poder correr el proyecto 3000. Asimismo, para ver la página en ejecución, se debe escribir localhost:3000 en el navegador de preferencia.
