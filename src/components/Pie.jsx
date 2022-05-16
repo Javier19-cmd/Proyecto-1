@@ -28,7 +28,7 @@ function Pie() {
         <div className="Secciones">
           <p className="Sec">Otras secciones</p>
           <a className="Conocenos" href="https://www.samsung.com/latin/about-us/company-info/">Conócenos</a>
-          <a className="Soporte" href="https://www.samsung.com/latin/support/">Soporte</a>
+          <a className="Sopo" href="https://www.samsung.com/latin/support/">Soporte</a>
           <a className="Ventas" href="https://shop.samsung.com/latin/gt/b2b?___from_store=pa">Ventas a Empresas - B2B</a>
         </div>
 

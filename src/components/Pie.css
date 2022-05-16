@@ -1,3 +1,8 @@
+/*
+    Referncias: 
+    1. Espaciado entre líneas: https://www.delftstack.com/es/howto/css/css-line-spacing/#:~:text=Utilice%20la%20propiedad%20line-height,o%20se%20reducirá%20en%20consecuencia.
+    2. 
+*/
 .Pie_Pagina{
     position: absolute;
 }
@@ -51,7 +56,6 @@
     position: absolute;
 }
 
-/*Empezar acá*/
 /*Texto de secciones*/
 .Sec{
     position: relative;
@@ -69,25 +73,28 @@
 }
 
 /*Propiedades del texto de soporte*/
-.Soporte{
+.Sopo{
     position: relative;
     font-size: 14px;
-    top: -485px;
-    left: 360px;
+    top: -505px;
+    left: 274px;
 }
 
 /*Propiedades del texto de ventas*/
 .Ventas{
     position: relative;
     font-size: 14px;
-    top: -475px;
-    left: 275px;
+    top: -480px;
+    left: 214px;
 }
-/*Terminar*/
 
-/*Propiedades generales de la sección de soporte*/
+/*Empezar*/
+/* Propiedades generales de la sección de soporte */
 .Soporte{
     position: absolute;
+    display: grid;
+    top: -490px;
+    left: 380px;
 }
 
 /*Propiedades del texto de necesitas*/
@@ -115,4 +122,90 @@
     position: relative;
     left: 250px;
     top: 35px;
+}
+/*Terminar*/
+/* Espacio para los sitios oficiales de cada país */
+.Sitios{
+    position: relative;
+    display: grid;
+    font-size: 14px;
+    line-height: 2;
+    left: 905px;
+    top: -550px;
+}
+
+.Oficiales{
+    position: relative;
+    top: -3px;
+}
+
+.Costa-Rica{
+    position: relative;
+}
+
+.Ecuador{
+    position: relative;
+}
+
+.El-Salvador{
+    position: relative;
+}
+
+.Guatemala{
+    position: relative;
+}
+
+.Honduras{
+    position: relative;
+}
+
+.Nicaragua{
+    position: relative;
+}
+
+.Panama{
+    position: relative;
+}
+
+.Republica-Dominicana{
+    position: relative;
+}
+
+.Venezuela{
+    position: relative;
+}
+
+/* Espacio para las redes sociales */
+.Redes{
+    position: relative;
+    display: inline-block;
+    line-height: 2;
+    top: -840px;
+    left: 1300px;
+}
+
+.Face{
+    position: relative;
+}
+
+.Twi{
+    position: relative;
+    height: 25px;
+    left: 10px;
+}
+
+.Insta{
+    position: relative;
+    left: 20px;
+}
+
+.You{
+    position: relative;
+    left: 30px;
+}
+
+.Linke{
+    position: relative;
+    height: 25px;
+    left: 40px;
 }
