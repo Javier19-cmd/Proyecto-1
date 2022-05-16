@@ -51,37 +51,39 @@
     position: absolute;
 }
 
+/*Empezar acá*/
 /*Texto de secciones*/
 .Sec{
     position: relative;
     font-size: 15px;
-    left: 250px;
-    top: -400px;
+    left: 360px;
+    top: -550px;
 }
 
 /*Propiedades del texto conocenos*/
 .Conocenos{
     position: relative;
     font-size: 14px;
-    top: -360px;
-    left: 250px;
+    top: -530px;
+    left: 360px;
 }
 
 /*Propiedades del texto de soporte*/
 .Soporte{
     position: relative;
     font-size: 14px;
-    top: -340px;
-    left: 165px;
+    top: -485px;
+    left: 360px;
 }
 
 /*Propiedades del texto de ventas*/
 .Ventas{
     position: relative;
     font-size: 14px;
-    top: -320px;
-    left: 105px;
+    top: -475px;
+    left: 275px;
 }
+/*Terminar*/
 
 /*Propiedades generales de la sección de soporte*/
 .Soporte{
