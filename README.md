@@ -1,4 +1,4 @@
-# Proyecto-1
+# Proyecto 1: Sistemas y Tecnologías Web
 
 Qué hace el proyecto.
 
