@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*Propiedades generales del carrusel*/
 .slider{
     width: 1900px;
     height: auto;
@@ -10,22 +10,27 @@
     overflow: hidden;
 }
 
+/*Propiedades del ul, aquí se están cambiando de manera aleatoria 
+las imágenes*/
 .slider ul{
     display: flex;
     padding: 0;
     width: 600%;
-    animation: cambio 20s infinite;
+    animation: cambio 10s infinite;
 }
 
+/*Propiedades de las imágenes*/
 .slider li {
     list-style: none;
     width: 100%;
 }
 
+/*Propiedades de las imágnes del carrusel*/
 .slider img{
     width: 100%;
 }
 
+/*Haciendo la animación del cambio de imágenes*/
 @keyframes cambio {
     0%{margin-left: 0;}
     16%{margin-left: 0;}
