@@ -1,59 +1,47 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-#conteItemsCarrusel{
-    height: 600px;
+.slider{
+    width: 1900px;
+    height: auto;
+    margin: 50px auto 0;
     overflow: hidden;
 }
 
-/*Ítems del carrusel*/
-.itemCarrusel{
-    position: relative;
-    left: 0;
-    top: 80px;
-    height: 600px;
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 600%;
+    animation: cambio 20s infinite;
 }
 
-/*.tarjetaCarrusel{
-    background-color: rgb(133, 216, 216);
-    height: 1890px;
-}*/
-
-/*Propiedades de las flechas del carrusel*/
-.flechasCarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
+.slider li {
+    list-style: none;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
 }
 
-/*Quitando la decoración de las flechas*/
-a{
-    text-decoration: none;
+.slider img{
+    width: 100%;
 }
 
-/*Puntos del carrusel*/
-#contePuntos{
-    display: flex;
-    justify-content: space-around;
-}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    16%{margin-left: 0;}
 
-/*Propiedades de los puntos del carrusel*/
-#contePuntos > a {
-    font-size: 1.5em;
-    font-style: none;
-    color: black;
-}
+    16%{margin-left: -100%;}
+    32%{margin-left: -100%;}
 
-/*Propiedades de las imágenes (dimensiones)*/
-.Img1{
-    width: 1890px;
-    height: 600px;
+    32%{margin-left: -200%;}
+    48%{margin-left: -200%;}
+
+    48%{margin-left: -300%;}
+    64%{margin-left: -300%;}
+
+    64%{margin-left: -300%;}
+    80%{margin-left: -300%;}
+
+    80%{margin-left: -400%;}
+    100%{margin-left: -400%;}
 }
