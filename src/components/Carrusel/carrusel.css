@@ -4,7 +4,7 @@
 }
 /*Propiedades generales del carrusel*/
 .slider{
-    width: 1880px;
+    width: 110vw;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
@@ -33,20 +33,24 @@ las imágenes*/
 /*Haciendo la animación del cambio de imágenes*/
 @keyframes cambio {
     0%{margin-left: 0;}
-    16%{margin-left: 0;}
+    14%{margin-left: 0;}
 
-    16%{margin-left: -100%;}
-    32%{margin-left: -100%;}
+    14%{margin-left: -100%;}
+    28%{margin-left: -100%;}
 
-    32%{margin-left: -200%;}
+    28%{margin-left: -200%;}
     48%{margin-left: -200%;}
 
-    48%{margin-left: -300%;}
-    64%{margin-left: -300%;}
+    42%{margin-left: -300%;}
+    62%{margin-left: -300%;}
 
-    64%{margin-left: -300%;}
-    80%{margin-left: -300%;}
+    62%{margin-left: -300%;}
+    78%{margin-left: -300%;}
 
-    80%{margin-left: -400%;}
-    100%{margin-left: -400%;}
+    78%{margin-left: -400%;}
+    92%{margin-left: -400%;}
+
+    100%{margin-left: -500%;}
+    100%{margin-left: -500%;}
+
 }
