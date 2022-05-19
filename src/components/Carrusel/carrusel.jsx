@@ -12,31 +12,31 @@ export default function carrusel() {
   return (
     <div className="slider" styles={styles}>
       <ul>
-       {/*Primera imagen*/}
+        {/* Primera imagen */}
         <li>
           <img src={Uno} alt="Imagen" />
         </li>
-        {/*Segunda imagen*/}
+        {/* Segunda imagen */}
         <li>
           <img src={Dos} alt="Imagen" />
         </li>
 
-        {/*Tercera imagen*/}
+        {/* Tercera imagen */}
         <li>
           <img src={Tres} alt="Imagen" />
         </li>
 
-        {/*Cuarta imagen*/}
+        {/* Cuarta imagen */}
         <li>
           <img src={Cuatro} alt="Imagen" />
         </li>
 
-        {/*Quinta imagen*/}
+        {/* Quinta imagen */}
         <li>
           <img src={Cinco} alt="Imagen" />
         </li>
 
-        {/*Sexta imagen*/}
+        {/* Sexta imagen */}
         <li>
           <img src={Seis} alt="Imagen" />
         </li>
