@@ -1,4 +1,4 @@
-// 
+// Hacer un carrusel en HTML: https://www.youtube.com/results?search_query=como+hacer+un+carrusel+automatico+de+6+imagenes+en+html+y+css+
 import React from 'react'
 import styles from './carrusel.css'
 import Uno from './I1.jpg'
