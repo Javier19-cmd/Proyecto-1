@@ -175,8 +175,8 @@ section .content .Conte1 .Cuatro{
 /*Quinta imagen del primer apartado*/
 section .content .Conte1 .Cinco{
     position: relative;
-    top: 80px;
-    left: -550px;
+    top: 79px;
+    left: -538px;
     border-radius: 7%;
 }
 
@@ -231,8 +231,8 @@ section .content .Conte3 .Once{
 section .content .Conte3 .Doce{
     position: relative;
     border-radius: 7%;
-    top: 20px;
-    left: -550px;
+    top: -200px;
+    left: 950px;
 }
 
 /*Primera imagen del cuarto apartado*/
@@ -270,15 +270,15 @@ section .content .Conte4 .Dieciseis{
 section .content .Conte4 .Diecisiete{
     position: relative;
     border-radius: 7%;
-    top: 50px;
-    left: -280px;
+    top: -200px;
+    left: 1225px;
 }
 
 /*Primera imagen del quinto apartado*/
 section .content .Conte5 .Dieciocho{
     position: relative;
     border-radius: 7%;
-    height: 104%;
+    height: 70%;
     top: 20px;
     left: 200px;
 }

@@ -2,12 +2,16 @@
     padding: 0;
     margin: 0;
 }
+
+
 /*Propiedades generales del carrusel*/
 .slider{
-    width: 110vw;
+    width: 80vw;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
+    left: -100px;
+    position: relative;
 }
 
 /*Propiedades del ul, aquí se están cambiando de manera aleatoria 
