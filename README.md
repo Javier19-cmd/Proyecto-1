@@ -30,4 +30,4 @@ La tecnología utilizada para este proyecto es únicamente React, pues es una te
 Para poder correr el proyecto, se debe ejecutar lo siguiente: 
 
 1. npm install para poder obtener todos los módulos que se usan en el proyecto.
-2. npm start para poder poder correr el proyecto 3000. Asimismo, para ver la página en ejecución, se debe escribir localhost:3000 en el navegador de preferencia.
+2. npm start para poder poder correr el proyecto 8000. Asimismo, para ver la página en ejecución, se debe escribir localhost:3000 en el navegador de preferencia.
