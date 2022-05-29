@@ -6,11 +6,11 @@
 
 /*Propiedades generales del carrusel*/
 .slider{
-    width: 80vw;
+    width: 100vw;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
-    left: -100px;
+    left: -10px;
     position: relative;
 }
 

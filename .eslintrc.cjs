@@ -22,5 +22,15 @@ module.exports = {
     "semi": 0,
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
+    "jsx-a11y/label-has-associated-control": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }],
+    "jsx-a11y/label-has-for": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }]
   },
 };
