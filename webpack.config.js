@@ -1,6 +1,6 @@
 //Configuración del webpack
 export default{
-  mode: 'production',
+  mode: 'development',
   entry: './src/index.jsx',
   output: {
     filename: 'bundle.js',
