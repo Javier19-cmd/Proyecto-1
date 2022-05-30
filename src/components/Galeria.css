@@ -167,19 +167,35 @@ section .content .Conte1 .Tres{
     border-radius: 7%;
 }
 
+/*Texto para smartphones*/
+.Texto1 {
+    position: relative;
+    top: -500px;
+    font-size: 20px;
+    left: 1280px;
+}
+
 /*Cuarta imagen del primer apartado*/
 section .content .Conte1 .Cuatro{
     position: relative;
-    top: -200px;
-    left: 515px;
+    top: -467px;
+    left: 803px;
     border-radius: 7%;
+}
+
+/*Texto para wearables*/
+.Texto2{
+    position: relative;
+    top: -500px;
+    left: 900px;
+    font-size: 20px;
 }
 
 /*Quinta imagen del primer apartado*/
 section .content .Conte1 .Cinco{
     position: relative;
-    top: -220px;
-    left: 600px;
+    top: -734px;
+    left: 1193px;
     border-radius: 7%;
 }
 

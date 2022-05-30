@@ -72,7 +72,9 @@ function Galeria() {
             <img src={Uno} alt="Uno" className="Uno" />
             <img src={Dos} alt="Dos" className="Dos" />
             <img src={Tres} alt="Tres" className="Tres" />
+            <p className="Texto1">Smartphones</p>
             <img src={Cuatro} alt="Cuatro" className="Cuatro" />
+            <p className="Texto2">Wearables</p>
             <img src={Cinco} alt="Cinco" className="Cinco" />
           </div>
         </div>
