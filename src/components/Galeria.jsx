@@ -8,7 +8,6 @@ import Dos from './Imagen2.png'
 import Tres from './Imagen3.png'
 import Cuatro from './Imagen4.png'
 import Cinco from './Imagen5.jpg'
-import Veinticuatro from './imagen24.png'
 
 /* Imágenes del segundo apartado de la galería */
 import Seis from './Imagen6.png'
@@ -68,13 +67,10 @@ function Galeria() {
       <section>
         <div className="content content-1">
           <div className="Conte1">
-            <img src={Veinticuatro} alt="Veintitres" className="Veinticuatro" />
             <img src={Uno} alt="Uno" className="Uno" />
             <img src={Dos} alt="Dos" className="Dos" />
             <img src={Tres} alt="Tres" className="Tres" />
-            <p className="Texto1">Smartphones</p>
             <img src={Cuatro} alt="Cuatro" className="Cuatro" />
-            <p className="Texto2">Wearables</p>
             <img src={Cinco} alt="Cinco" className="Cinco" />
           </div>
         </div>
