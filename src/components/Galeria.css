@@ -200,6 +200,12 @@ section .content .Conte2 .Siete{
     left: 200px;
 }
 
+/*Cambiando ubicación*/
+section .content .Conte3{
+    position: relative;
+    left: 127px;
+}
+
 /*Primera imagen del tercer apartado*/
 section .content .Conte3 .Ocho{
     position: relative;
