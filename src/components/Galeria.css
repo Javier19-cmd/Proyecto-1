@@ -147,36 +147,39 @@ section .content{
 
 section .content .Conte1 .Veinticuatro{
     position: relative;
+    left: 180px;
+    border-radius: 7%;
 }
 
 /*Segunda imagen del primer apartado*/
 section .content .Conte1 .Dos{
     position: relative;
-    top: -250px;
+    top: -225px;
+    left: -350px;
     border-radius: 7%;
 }
 
 /*Tercera imagen del primer apartado*/
 section .content .Conte1 .Tres{
     position: relative;
-    top: -250px;
-    left: 50px;
+    top: -480px;
+    left: 1200px;
     border-radius: 7%;
 }
 
 /*Cuarta imagen del primer apartado*/
 section .content .Conte1 .Cuatro{
     position: relative;
-    top: 100px;
-    left: -600px;
+    top: -200px;
+    left: 515px;
     border-radius: 7%;
 }
 
 /*Quinta imagen del primer apartado*/
 section .content .Conte1 .Cinco{
     position: relative;
-    top: -175px;
-    left: 1000px;
+    top: -220px;
+    left: 600px;
     border-radius: 7%;
 }
 
