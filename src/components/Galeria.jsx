@@ -68,7 +68,7 @@ function Galeria() {
       <section>
         <div className="content content-1">
           <div className="Conte1">
-            <img src={Veinticuatro} alt="Veintitres"  className='Veinticuatro'/>
+            <img src={Veinticuatro} alt="Veintitres" className="Veinticuatro" />
             <img src={Uno} alt="Uno" className="Uno" />
             <img src={Dos} alt="Dos" className="Dos" />
             <img src={Tres} alt="Tres" className="Tres" />
