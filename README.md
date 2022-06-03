@@ -4,7 +4,7 @@
 
 # Qué hace el proyecto
 
-El presente proyecto consiste en replicar (o hacer pixel copy) de una página web actual. Para lo anterior mencionado, se eligió la página web de Samsung: https://shop.samsung.com/latin/gt/. Este proyecto tiene todos los componentes que la página de Samsung posee. Asimismo, se contempló la idea de usar componentes para poder llevar el diseño de una manera más eficaz, ordenada y rápida.
+El presente proyecto consiste en replicar (o hacer pixel copy) de una página web actual. Para lo anterior mencionado, se eligió la página web de Samsung: https://shop.samsung.com/latin/gt/. Este proyecto tiene todos los componentes que la página de Samsung posee. Asimismo, se contempló la idea de usar componentes para poder llevar el diseño de una manera más eficaz, ordenada y rápida. Es importante destacar que este proyecto se clonó durante las festividades del día de la madre, es por ello que el carrusel tiene imágenes de tal día.
 
 # Por qué el proyecto es útil.
 
@@ -30,4 +30,4 @@ La tecnología utilizada para este proyecto es únicamente React, pues es una te
 Para poder correr el proyecto, se debe ejecutar lo siguiente: 
 
 1. npm install para poder obtener todos los módulos que se usan en el proyecto.
-2. npm start para poder poder correr el proyecto 8000. Asimismo, para ver la página en ejecución, se debe escribir localhost:3000 en el navegador de preferencia.
+2. npm start para poder poder correr el proyecto 8000. Asimismo, para ver la página en ejecución, se debe escribir localhost:8000 en el navegador de preferencia.
