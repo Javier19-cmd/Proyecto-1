@@ -12,7 +12,7 @@ Este proyecto tiene una gran utilidad, dado que se puede practicar el uso de css
 
 # Cómo pueden comenzar los usuarios con el proyecto
 
-# Para poder comenzar con este proyecto, es importante poder saber como se construye un ambiente de trabajo en Webpack. También es importante saber como poder configurar el ambiente de trabajo de React y Webpack. Por otro lado, es importante que el programador que se encuentre dispuesto a comenzar con un proyecto como este, sepa como configurar de manera actual eslint, css, el loader de imágenes, Babel y React.
+Para poder comenzar con este proyecto, es importante poder saber como se construye un ambiente de trabajo en Webpack. También es importante saber como poder configurar el ambiente de trabajo de React y Webpack. Por otro lado, es importante que el programador que se encuentre dispuesto a comenzar con un proyecto como este, sepa como configurar de manera actual eslint, css, el loader de imágenes, Babel y React.
 
 # Dónde pueden recibir ayuda los usuarios con tu proyecto
 
